@@ -1,0 +1,410 @@
+[
+  {
+    "State": "Alabama",
+    "population": "4858979",
+    "search_region": "Alabama",
+    "latitude": 32.5081408163266,
+    "longitude": -87.2105668367346,
+    "count": "196"
+  },
+  {
+    "State": "Alaska",
+    "population": "738432",
+    "search_region": "Alaska",
+    "latitude": 61.0830034482758,
+    "longitude": -149.582882758621,
+    "count": "29"
+  },
+  {
+    "State": "Arizona",
+    "population": "6828065",
+    "search_region": "Arizona",
+    "latitude": 33.5987232067511,
+    "longitude": -112.283083966245,
+    "count": "237"
+  },
+  {
+    "State": "Arkansas",
+    "population": "2978204",
+    "search_region": "Arkansas",
+    "latitude": 35.28148,
+    "longitude": -93.1527733333334,
+    "count": "30"
+  },
+  {
+    "State": "California",
+    "population": "39144818",
+    "search_region": "California",
+    "latitude": 35.1644261028515,
+    "longitude": -119.377771801121,
+    "count": "4103"
+  },
+  {
+    "State": "Colorado",
+    "population": "5456574",
+    "search_region": "Colorado",
+    "latitude": 39.6452087804878,
+    "longitude": -105.12708,
+    "count": "205"
+  },
+  {
+    "State": "Connecticut",
+    "population": "3590886",
+    "search_region": "Connecticut",
+    "latitude": 41.4393747252747,
+    "longitude": -72.888854945055,
+    "count": "182"
+  },
+  {
+    "State": "Delaware",
+    "population": "945934",
+    "search_region": null,
+    "latitude": null,
+    "longitude": null,
+    "count": null
+  },
+  {
+    "State": "District of Columbia",
+    "population": "672228",
+    "search_region": "District of Columbia",
+    "latitude": 38.90006,
+    "longitude": -76.99134,
+    "count": "5"
+  },
+  {
+    "State": "Florida",
+    "population": "20271272",
+    "search_region": "Florida",
+    "latitude": 27.7696463258787,
+    "longitude": -81.5284710862618,
+    "count": "626"
+  },
+  {
+    "State": "Georgia",
+    "population": "10214860",
+    "search_region": "Georgia",
+    "latitude": 33.3257281588448,
+    "longitude": -84.2358559566789,
+    "count": "277"
+  },
+  {
+    "State": "Hawaii",
+    "population": "1431603",
+    "search_region": null,
+    "latitude": null,
+    "longitude": null,
+    "count": null
+  },
+  {
+    "State": "Idaho",
+    "population": "1654930",
+    "search_region": "Idaho",
+    "latitude": 43.741118367347,
+    "longitude": -116.366824489796,
+    "count": "49"
+  },
+  {
+    "State": "Illinois",
+    "population": "12859995",
+    "search_region": "Illinois",
+    "latitude": 41.7594982062781,
+    "longitude": -87.8876892376682,
+    "count": "223"
+  },
+  {
+    "State": "Indiana",
+    "population": "6619680",
+    "search_region": "Indiana",
+    "latitude": 40.2704024096386,
+    "longitude": -85.9693734939759,
+    "count": "83"
+  },
+  {
+    "State": "Iowa",
+    "population": "3123899",
+    "search_region": "Iowa",
+    "latitude": 41.6793263157895,
+    "longitude": -93.7151263157895,
+    "count": "19"
+  },
+  {
+    "State": "Kansas",
+    "population": "2911641",
+    "search_region": "Kansas",
+    "latitude": 38.4770739130435,
+    "longitude": -95.6534043478261,
+    "count": "23"
+  },
+  {
+    "State": "Kentucky",
+    "population": "4425092",
+    "search_region": "Kentucky",
+    "latitude": 37.7817833333333,
+    "longitude": -84.9709416666667,
+    "count": "12"
+  },
+  {
+    "State": "Louisiana",
+    "population": "4670724",
+    "search_region": "Louisiana",
+    "latitude": 30.1459988636363,
+    "longitude": -91.2388897727272,
+    "count": "88"
+  },
+  {
+    "State": "Maine",
+    "population": "1329328",
+    "search_region": "Maine",
+    "latitude": 44.1292133333333,
+    "longitude": -69.4265666666667,
+    "count": "15"
+  },
+  {
+    "State": "Maryland",
+    "population": "6006401",
+    "search_region": "Maryland",
+    "latitude": 39.1146484978541,
+    "longitude": -77.0202120171675,
+    "count": "233"
+  },
+  {
+    "State": "Massachusetts",
+    "population": "6794422",
+    "search_region": "Massachusetts",
+    "latitude": 42.3003097560975,
+    "longitude": -71.2877336585367,
+    "count": "205"
+  },
+  {
+    "State": "Michigan",
+    "population": "9922576",
+    "search_region": "Michigan",
+    "latitude": 42.8754763157895,
+    "longitude": -84.4541388157895,
+    "count": "152"
+  },
+  {
+    "State": "Minnesota",
+    "population": "5489594",
+    "search_region": "Minnesota",
+    "latitude": 45.1933494692144,
+    "longitude": -93.2932078556263,
+    "count": "471"
+  },
+  {
+    "State": "Mississippi",
+    "population": "2992333",
+    "search_region": "Mississippi",
+    "latitude": 32.1351714285714,
+    "longitude": -89.9918,
+    "count": "7"
+  },
+  {
+    "State": "Missouri",
+    "population": "6083672",
+    "search_region": "Missouri",
+    "latitude": 38.762653968254,
+    "longitude": -91.6660761904762,
+    "count": "63"
+  },
+  {
+    "State": "Montana",
+    "population": "1032949",
+    "search_region": "Montana",
+    "latitude": 47.783840625,
+    "longitude": -113.916290625,
+    "count": "32"
+  },
+  {
+    "State": "Nebraska",
+    "population": "1896190",
+    "search_region": "Nebraska",
+    "latitude": 41.3530657894737,
+    "longitude": -96.6123921052632,
+    "count": "76"
+  },
+  {
+    "State": "Nevada",
+    "population": "2890845",
+    "search_region": "Nevada",
+    "latitude": 37.9751613636363,
+    "longitude": -117.725128030303,
+    "count": "132"
+  },
+  {
+    "State": "New Hampshire",
+    "population": "1330608",
+    "search_region": "New Hampshire",
+    "latitude": 43.12715,
+    "longitude": -71.4703642857143,
+    "count": "14"
+  },
+  {
+    "State": "New Jersey",
+    "population": "8958013",
+    "search_region": "New Jersey",
+    "latitude": 40.6538236947791,
+    "longitude": -74.3081212851405,
+    "count": "249"
+  },
+  {
+    "State": "New Mexico",
+    "population": "2085109",
+    "search_region": "New Mexico",
+    "latitude": 34.9653083333333,
+    "longitude": -106.666495833333,
+    "count": "24"
+  },
+  {
+    "State": "New York",
+    "population": "19795791",
+    "search_region": "New York",
+    "latitude": 41.1090676923076,
+    "longitude": -74.2120507692307,
+    "count": "195"
+  },
+  {
+    "State": "North Carolina",
+    "population": "10042802",
+    "search_region": "North Carolina",
+    "latitude": 35.5644329787234,
+    "longitude": -80.0452893617021,
+    "count": "94"
+  },
+  {
+    "State": "North Dakota",
+    "population": "756927",
+    "search_region": "North Dakota",
+    "latitude": 47.2161988764045,
+    "longitude": -99.5771865168539,
+    "count": "89"
+  },
+  {
+    "State": "Ohio",
+    "population": "11613423",
+    "search_region": "Ohio",
+    "latitude": 41.0939026315789,
+    "longitude": -82.1267592105264,
+    "count": "76"
+  },
+  {
+    "State": "Oklahoma",
+    "population": "3911338",
+    "search_region": "Oklahoma",
+    "latitude": 35.4958612903226,
+    "longitude": -97.1053596774194,
+    "count": "62"
+  },
+  {
+    "State": "Oregon",
+    "population": "4028977",
+    "search_region": "Oregon",
+    "latitude": 45.1618337662337,
+    "longitude": -122.87982987013,
+    "count": "77"
+  },
+  {
+    "State": "Pennsylvania",
+    "population": "12802503",
+    "search_region": "Pennsylvania",
+    "latitude": 40.3125531914893,
+    "longitude": -75.8833638297873,
+    "count": "141"
+  },
+  {
+    "State": "Rhode Island",
+    "population": "1056298",
+    "search_region": "Rhode Island",
+    "latitude": 41.7577953488372,
+    "longitude": -71.4105209302326,
+    "count": "43"
+  },
+  {
+    "State": "South Carolina",
+    "population": "4896146",
+    "search_region": "South Carolina",
+    "latitude": 33.7840086956522,
+    "longitude": -81.361368115942,
+    "count": "69"
+  },
+  {
+    "State": "South Dakota",
+    "population": "858469",
+    "search_region": "South Dakota",
+    "latitude": 43.526256,
+    "longitude": -97.080004,
+    "count": "25"
+  },
+  {
+    "State": "Tennessee",
+    "population": "6600299",
+    "search_region": "Tennessee",
+    "latitude": 35.67766484375,
+    "longitude": -86.9124492187501,
+    "count": "128"
+  },
+  {
+    "State": "Texas",
+    "population": "27469114",
+    "search_region": "Texas",
+    "latitude": 31.6371953974895,
+    "longitude": -97.4321602510462,
+    "count": "478"
+  },
+  {
+    "State": "Utah",
+    "population": "2995919",
+    "search_region": "Utah",
+    "latitude": 40.391374,
+    "longitude": -111.648573,
+    "count": "100"
+  },
+  {
+    "State": "Vermont",
+    "population": "626042",
+    "search_region": "Vermont",
+    "latitude": 43.6994275862069,
+    "longitude": -72.9086206896551,
+    "count": "29"
+  },
+  {
+    "State": "Virginia",
+    "population": "8382993",
+    "search_region": "Virginia",
+    "latitude": 38.2090271929824,
+    "longitude": -77.2910254385965,
+    "count": "114"
+  },
+  {
+    "State": "Washington",
+    "population": "7170351",
+    "search_region": "Washington",
+    "latitude": 47.6424187969925,
+    "longitude": -122.264825939849,
+    "count": "266"
+  },
+  {
+    "State": "West Virginia",
+    "population": "1844128",
+    "search_region": "West Virginia",
+    "latitude": 38.6466384615385,
+    "longitude": -80.4523230769231,
+    "count": "13"
+  },
+  {
+    "State": "Wisconsin",
+    "population": "5771337",
+    "search_region": "Wisconsin",
+    "latitude": 44.0814541666667,
+    "longitude": -89.4601694444445,
+    "count": "144"
+  },
+  {
+    "State": "Wyoming",
+    "population": "586107",
+    "search_region": "Wyoming",
+    "latitude": 42.9964866666667,
+    "longitude": -107.27712,
+    "count": "15"
+  }
+]

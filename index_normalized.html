@@ -1,0 +1,103 @@
+<!-- Body of your web app -->
+        <head>
+<!-- Plotly.js -->
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        </head>
+        <body>
+        <!-- Plotly chart will be drawn inside this DIV -->
+        <div id="myDiv"></div>
+        <script>
+        /* JAVASCRIPT CODE GOES HERE */
+
+Plotly.d3.json('dataset.json', function(err, rows){
+//Plotly.d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/2014_us_cities.csv', function(err, rows){
+
+      function unpack(rows, key) {
+          return rows.map(function(row) { return row[key]; });
+      }
+var cityName = unpack(rows, 'search_region'),
+    cityPop = unpack(rows, 'count'),
+    cityLat = unpack(rows, 'latitude'),
+    cityLon = unpack(rows, 'longitude'),
+    color = ["rgb(255,65,54)","rgb(133,20,75)","rgb(255,133,27)","lightgrey"],
+    citySize = []
+    hoverText = [],
+    //scale = Math.max.apply(Math, cityPop),
+    statePopCensus = unpack(rows,'population');
+
+    
+
+var scale = -1;
+for( var i = 0; i < cityPop.length; i++){
+  console.log(statePopCensus[i]);
+  console.log(cityPop[i]);
+  var tmp = Number(cityPop[i])/Number(statePopCensus[i]);
+  console.log(tmp);
+  if(tmp > scale){
+    scale = tmp;
+  }
+}
+
+console.log("scale")
+console.log(scale)
+
+/*var normalSize = cityPop.map((pop, i) => Number(pop[i]) / Number(statePopCensus[i]));
+console.log(normalSize);
+var scale = Math.max.apply(Math, normalSize);
+*/
+
+
+for ( var i = 0 ; i < cityPop.length; i++) {
+  var currentSize = Number(cityPop[i]/statePopCensus[i]) / scale * 50;
+  //var currentSize = Number(cityPop[i]) / scale * 50;
+  var currentText = cityName[i] + "<br>text searches: " + cityPop[i] + "<br>Population: " + statePopCensus[i] ;
+  citySize.push(currentSize);
+  hoverText.push(currentText);
+}
+
+console.log("citySize");
+console.log(citySize);
+
+  var data = [{
+   type: 'scattergeo',
+   locationmode: 'USA-states',
+   lat: cityLat,
+   lon: cityLon,
+   text: hoverText,
+   hoverinfo: 'text',
+   marker: {
+     size: citySize ,
+     line: {
+       color: 'black',
+       width: 2
+     },
+     
+   }
+}];
+
+var layout = {
+    title: 'Text Search by State',
+    showlegend: false,
+    geo: {
+      scope: 'usa',
+      projection: {
+        type: 'albers usa'
+      },
+      showland: true,
+      landcolor: 'rgb(217, 217, 217)',
+      subunitwidth: 1,
+      countrywidth: 1,
+      subunitcolor: 'rgb(255,255,255)',
+      countrycolor: 'rgb(255,255,255)'
+    },
+};
+
+Plotly.plot(myDiv, data, layout, {showLink: false});
+
+
+  });
+
+
+        </script>
+        </body>
+
